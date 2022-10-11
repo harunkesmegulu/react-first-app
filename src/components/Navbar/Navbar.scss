@@ -4,12 +4,13 @@
     background-color: $cardNavBgColor;
     display: flex;
     justify-content: space-evenly;
-    
+
     a{
         color:$backgroundColor;
-        text-decoration:  none;
+        text-decoration:  underline;
         font-size: 2rem;
-        padding: 1rem;
+        padding: 2rem;
+        
         &:hover{
             background-color: $backgroundColor;
             color: $cardNavBgColor;

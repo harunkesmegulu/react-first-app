@@ -1,11 +1,12 @@
 export const data = [
     {
       id: 1,
-      title: "New York",
+      title: "İstanbul",
       desc:
-        "Home to the Statue of Liberty, Empire State Building, Central Park, Times Square, New York is the most populous city in the USA. We have a lot to tell about the city where city lights illuminate the sky.",
+        " Istanbul (Turkish: İstanbul) is Turkey's most populous city as well as its cultural and financial hub. Located on both sides of the Bosphorus, the narrow strait between the Black Sea and the Marmara Sea, Istanbul bridges Asia and Europe both physically and culturally.",
       image:
-        "https://cdn.pixabay.com/photo/2017/06/07/15/47/new-york-city-2380683_960_720.jpg",
+      "https://assist-ant.com/wp-content/uploads/2019/12/visiting-istanbul-1080x675.png",
+        
     },
     {
       id: 2,
