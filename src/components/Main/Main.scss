@@ -5,9 +5,37 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 
-}
-// img{
-//     width: 500px;
-//     height: 350px;
+    .cards{
+        background-color: $cardNavBgColor;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 10px;
 
-// }
+    }
+    .title{
+        color: $backgroundColor;
+        font-size:1rem ;
+        padding: 1rem;
+    }
+
+    
+}
+img{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    &:hover{
+        filter:grayscale(100);
+    }
+
+}
+.card-over{
+    color:white;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    font-size:1.5rem;
+    background-color: rgba( 0,0,0,0,5);
+
+
+}
