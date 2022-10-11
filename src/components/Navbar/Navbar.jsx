@@ -1,7 +1,7 @@
 import './Navbar.scss';
 
 const Navbar = () => {
-    retun[
+    return (
         <div className="navbar">
            <a href="#abautus">Abaut Us</a>
            <a href="#abautus">For You</a>
@@ -10,7 +10,7 @@ const Navbar = () => {
            <a href="#abautus">Vlog</a>
            <a href="#abautus">Contatc</a>
         </div>
-    ]
+    )
 } 
 
 export default Navbar;
