@@ -18,4 +18,4 @@ const Card =(data) => {
     )
 }
 
-export default Main;
+export default Card;
