@@ -7,7 +7,7 @@ const App = () => {
     return(
         <div className="card-container">
            {data.map((item, index)=> <Card {...item
-           } key={...}/>
+           } key={index}/>
            )}
         </div>
     )
